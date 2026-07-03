@@ -9,8 +9,8 @@ export function ProjectsSection() {
       tech: [
         "Microsoft Excel", "Pivot Tables", "KPI Dashboard"    
       ],
-      liveLink: "https://github.com/ijaihari/Wind-Farm-KPI-Contractual-SLA-Monitoring-System/blob/main/README.md",
-      githubLink: "https://github.com/ijaihari/Wind-Farm-KPI-Contractual-SLA-Monitoring-System",
+      liveLink: "https://github.com/jaiharinataraj/Wind-Farm-KPI-Contractual-SLA-Monitoring-System/blob/main/README.md",
+      githubLink: "https://github.com/jaiharinataraj/Wind-Farm-KPI-Contractual-SLA-Monitoring-System",
     },
     {
       title: "Wind Turbine SCADA Performance Analytics",
@@ -19,8 +19,8 @@ export function ProjectsSection() {
       tech: [
         "Power BI", "Power Query", "DAX", "Microsoft Excel", "CSV"     
       ],
-      liveLink: "https://github.com/ijaihari/Wind-Turbine-SCADA-Performance-Analytics/blob/main/readme.md",
-      githubLink: "https://github.com/ijaihari/Wind-Turbine-SCADA-Performance-Analytics",
+      liveLink: "https://github.com/jaiharinataraj/Wind-Turbine-SCADA-Performance-Analytics/blob/main/readme.md",
+      githubLink: "https://github.com/jaiharinataraj/Wind-Turbine-SCADA-Performance-Analytics",
     },
     {
       title: "Tamil Nadu SIR 2026 – Voter Roll Impact Analysis",
@@ -35,8 +35,8 @@ export function ProjectsSection() {
         "Logistic Regression",
         "EDA",        
       ],
-      liveLink: "https://github.com/ijaihari/Tamil-Nadu-SIR-2026-Draft-Voter-Roll-Impact-Analysis/blob/main/notebooks/Tamil%20Nadu%20SIR%202026%20Draft%20Voter%20Roll%20Impact%20Analysis.ipynb",
-      githubLink: "https://github.com/ijaihari/Tamil-Nadu-SIR-2026-Draft-Voter-Roll-Impact-Analysis",
+      liveLink: "https://github.com/jaiharinataraj/Tamil-Nadu-SIR-2026-Draft-Voter-Roll-Impact-Analysis/blob/main/notebooks/Tamil%20Nadu%20SIR%202026%20Draft%20Voter%20Roll%20Impact%20Analysis.ipynb",
+      githubLink: "https://github.com/jaiharinataraj/Tamil-Nadu-SIR-2026-Draft-Voter-Roll-Impact-Analysis",
     },
     {
       title: "Zomato Restaurant Data Analytics - Customer Behavior Analysis",
@@ -50,8 +50,8 @@ export function ProjectsSection() {
         "Seaborn",
         "EDA",        
       ],
-      liveLink: "https://github.com/ijaihari/Zomato-Restaurant-Data-Analytics-Customer-Behavior-Analysis/blob/main/Zomato%20Restaurant%20Data%20Analytics%20-%20Customer%20Behavior%20Analysis.ipynb",
-      githubLink: "https://github.com/ijaihari/Zomato-Restaurant-Data-Analytics-Customer-Behavior-Analysis",
+      liveLink: "https://github.com/jaiharinataraj/Zomato-Restaurant-Data-Analytics-Customer-Behavior-Analysis/blob/main/Zomato%20Restaurant%20Data%20Analytics%20-%20Customer%20Behavior%20Analysis.ipynb",
+      githubLink: "https://github.com/jaiharinataraj/Zomato-Restaurant-Data-Analytics-Customer-Behavior-Analysis",
     },
      {
       title: "End-to-End Customer Churn Analysis for Bank Customers",
@@ -60,8 +60,8 @@ export function ProjectsSection() {
       tech: [
        "Power BI", "Power Query", "Data Modeling (Star Schema)", "DAX", "Microsoft Excel", "CSV"        
       ],
-      liveLink: "https://github.com/ijaihari/Customer-Churn-Analysis-for-Bank-Customers/blob/main/Readme.md",
-      githubLink: "https://github.com/ijaihari/Customer-Churn-Analysis-for-Bank-Customers",
+      liveLink: "https://github.com/jaiharinataraj/Customer-Churn-Analysis-for-Bank-Customers/blob/main/Readme.md",
+      githubLink: "https://github.com/jaiharinataraj/Customer-Churn-Analysis-for-Bank-Customers",
     },
     
   ];

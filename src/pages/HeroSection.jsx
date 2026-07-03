@@ -7,7 +7,7 @@ export function HeroSection() {
       <div className="w-full max-w-6xl flex flex-col items-center text-center pt-30 pb-5 sm:pt-0 sm:pb-0 leading-tight">
 
         {/* Project link */}
-        <a href="https://github.com/ijaihari/Wind-Farm-KPI-Contractual-SLA-Monitoring-System" target="_blank" className="mb-5">
+        <a href="https://github.com/jaiharinataraj/Wind-Farm-KPI-Contractual-SLA-Monitoring-System" target="_blank" className="mb-5">
           <p className="flex items-center justify-center gap-1 
                         text-sm sm:text-lg 
                         font-semibold italic underline tracking-tight">
@@ -49,7 +49,7 @@ export function HeroSection() {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/ijaihari/"
+            href="https://www.linkedin.com/in/jaiharinataraj/"
             target="_blank"
             rel="noopener noreferrer"
             className="hero-link"
@@ -58,7 +58,7 @@ export function HeroSection() {
           </a>
 
           <a
-            href="https://github.com/ijaihari"
+            href="https://github.com/jaiharinataraj"
             target="_blank"
             rel="noopener noreferrer"
             className="hero-link "

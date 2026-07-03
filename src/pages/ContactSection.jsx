@@ -43,7 +43,7 @@ export function ContactSection() {
                     {/* Social */}
                     <ContactCard title="Social">
   {/* Top-right overlay button */}
-  <a
+  {/* <a
   href="https://twitter.com/messages/compose?recipient_id=2008022900415352832"
   target="_blank"
   rel="noopener noreferrer"
@@ -60,14 +60,14 @@ export function ContactSection() {
   "
 >
   Message on <FaXTwitter size={14} />
-</a>
+</a> */}
 
 
 
   {/* Social icons */}
   <div className="flex items-center gap-5 text-gray-600 text-2xl">
     <a
-      href="https://github.com/ijaihari"
+      href="https://github.com/jaiharinataraj"
       target="_blank"
       className="hover:text-black transition"
       aria-label="GitHub"
@@ -75,7 +75,7 @@ export function ContactSection() {
       <FaGithub />
     </a>
     <a
-      href="https://www.linkedin.com/in/ijaihari/"
+      href="https://www.linkedin.com/in/jaiharinataraj/"
       target="_blank"
       className="hover:text-black transition"
       aria-label="LinkedIn"
@@ -83,7 +83,7 @@ export function ContactSection() {
       <FaLinkedinIn />
     </a>
     <a
-      href="https://x.com/ijaihari"
+      href="https://x.com/jaiharinataraj"
       target="_blank"
       className="hover:text-black transition"
       aria-label="X"

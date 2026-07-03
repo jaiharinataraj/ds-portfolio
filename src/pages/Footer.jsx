@@ -21,7 +21,7 @@ export function Footer() {
         >
           © {year} - Designed &amp; Developed by{" "}
           <a
-            href="https://www.linkedin.com/in/ijaihari/"
+            href="https://www.linkedin.com/in/jaiharinataraj/"
             target="_blank"
             rel="noopener noreferrer"
             className="
