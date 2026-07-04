@@ -49,7 +49,7 @@ export function HeroSection() {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/jaiharinataraj/"
+            href="https://linkedin.com/in/jaiharinataraj/"
             target="_blank"
             rel="noopener noreferrer"
             className="hero-link"

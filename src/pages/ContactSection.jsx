@@ -75,7 +75,7 @@ export function ContactSection() {
       <FaGithub />
     </a>
     <a
-      href="https://www.linkedin.com/in/jaiharinataraj/"
+      href="https://linkedin.com/in/jaiharinataraj/"
       target="_blank"
       className="hover:text-black transition"
       aria-label="LinkedIn"
