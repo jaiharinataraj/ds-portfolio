@@ -17,7 +17,7 @@ export function HeroSection() {
 
         {/* Greeting */}
         <h2 className="font-bold text-xl sm:text-3xl tracking-tight">
-          Hello World, I'm JAI HARI
+          Hello World, I'm JAI HARI NATARAJ
         </h2>
 
         {/* Main headline */}
