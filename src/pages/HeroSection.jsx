@@ -40,7 +40,7 @@ export function HeroSection() {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-4 
                         w-full max-w-md sm:max-w-xl lg:max-w-2xl mx-auto">
           <a
-            href="\resume\Jai_Hari_Nataraj_Turbine_Data_Analyst_Resume.pdf"
+            href="\resume\Jai_Hari_Nataraj_Data_Analyst_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="hero-link"
