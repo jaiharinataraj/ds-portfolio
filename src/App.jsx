@@ -8,12 +8,10 @@ import { HeroSection } from "./pages/HeroSection.jsx";
 import { Navbar } from "./pages/NavBar.jsx";
 import { ProjectsSection } from "./pages/ProjectsSection.jsx";
 import { SkillsSection } from "./pages/SkillsSection.jsx";
-import SEO from "./components/SEO.jsx";
 
 function App() {
   return (
     <div>
-      <SEO/>
       <Analytics/>
       <Navbar />
       <HeroSection />
