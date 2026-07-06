@@ -5,7 +5,7 @@ import {
     FaLinkedinIn,
     FaXTwitter,
 } from "react-icons/fa6";
-
+import { SiSubstack } from "react-icons/si";
 export function ContactSection() {
     return (
         <section
@@ -42,62 +42,63 @@ export function ContactSection() {
 
                     {/* Social */}
                     <ContactCard title="Social">
-  {/* Top-right overlay button */}
-  {/* <a
-  href="https://twitter.com/messages/compose?recipient_id=2008022900415352832"
-  target="_blank"
-  rel="noopener noreferrer"
-  aria-label="Message on X"
-  className="
-    absolute top-4 right-4
-    flex items-center gap-2
-    px-3 py-1.5
-    rounded-xl
-    border border-gray-300 bg-gray-100 text-gray-800 
-    text-sm font-semibold
-    hover:border-gray-800 
-    transition-all duration-300
-  "
->
-  Message on <FaXTwitter size={14} />
-</a> */}
+                        {/* Social icons */}
+                        <div className="flex items-start gap-4 text-gray-600">
+                            <a
+                                href="https://github.com/jaiharinataraj"
+                                target="_blank"
+                                className="flex flex-col items-center gap-1 pt-0.5 hover:text-black transition"
+                                aria-label="GitHub"
+                            >
+                                <FaGithub className="text-3xl" />
+                            </a>
+                            <a
+                                href="https://linkedin.com/in/jaiharinataraj/"
+                                target="_blank"
+                                className="flex flex-col items-center gap-1 hover:text-black transition"
+                                aria-label="LinkedIn"
+                            >
+                                <FaLinkedinIn className="text-3xl" />
+                                <span className="flex items-center gap-1 text-[11px] font-medium text-gray-500">
+                                    <span className="relative flex h-1.5 w-1.5">
+                                        <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75"></span>
+                                        <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-green-500"></span>
+                                    </span>
+                                    Active
+                                </span>
+                            </a>
+                            <a
+                                href="https://x.com/jaiharinataraj"
+                                target="_blank"
+                                className="flex flex-col items-center gap-1 hover:text-black transition"
+                                aria-label="X"
+                            >
+                                <FaXTwitter className="text-3xl" />
+                                <span className="flex items-center gap-1 text-[11px] font-medium text-gray-500">
+                                    <span className="relative flex h-1.5 w-1.5">
+                                        <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75"></span>
+                                        <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-green-500"></span>
+                                    </span>
+                                    Active
+                                </span>
+                            </a>
+                            {/* <a
+                              href="https://jaiharinataraj.substack.com/"
+                              target="_blank"
+                              className="flex flex-col items-center gap-1 hover:text-black transition"
+                              aria-label="Substack"
+                            >
+                             <SiSubstack className="text-xl" />
+                            </a> */}
 
-
-
-  {/* Social icons */}
-  <div className="flex items-center gap-5 text-gray-600 text-2xl">
-    <a
-      href="https://github.com/jaiharinataraj"
-      target="_blank"
-      className="hover:text-black transition"
-      aria-label="GitHub"
-    >
-      <FaGithub />
-    </a>
-    <a
-      href="https://linkedin.com/in/jaiharinataraj/"
-      target="_blank"
-      className="hover:text-black transition"
-      aria-label="LinkedIn"
-    >
-      <FaLinkedinIn />
-    </a>
-    <a
-      href="https://x.com/jaiharinataraj"
-      target="_blank"
-      className="hover:text-black transition"
-      aria-label="X"
-    >
-      <FaXTwitter />
-    </a>
-  </div>
-</ContactCard>
+                        </div>
+                    </ContactCard>
 
 
                 </div>
 
                 {/* Message form */}
-                <ContactCard title="Message">
+               <ContactCard title="Message">
                     <form
                         action="https://api.web3forms.com/submit"
                         method="POST"
@@ -110,12 +111,6 @@ export function ContactSection() {
                             value="43f8ee79-e6d0-43b2-a0d9-245a0546b9e1"
                         />
 
-                        {/* Optional: redirect after submit */}
-                        {/* <input
-                            type="hidden"
-                            name="redirect"
-                            value="https://jaihari.dev/thank-you"
-                        /> */}
                         <input type="hidden" name="subject" value="New message from DS Portfolio" />
                         {/* Name + Email */}
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -169,8 +164,7 @@ export function ContactSection() {
                         </button>
                     </form>
                 </ContactCard>
-
-
+               
             </div>
         </section>
     );
