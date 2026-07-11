@@ -23,7 +23,7 @@ export function AboutSection() {
                 <ProfileIntro
                     imageSrc="/profile.png"
                     description={`
-                        Hi, I'm Jai Hari Nataraj, a Data Analyst who works with real-world data to uncover insights that actually mean something. I use tools like Python, SQL, Excel, Pandas, NumPy, Matplotlib, Seaborn, and Power BI to clean messy datasets, build dashboards, and tell clear data-driven stories.
+                        Hi, I'm Jai Hari Nataraj, a Data & Business Analyst who works with real-world data to uncover insights that actually mean something. I use tools like Python, SQL, Excel, Pandas, NumPy, Matplotlib, Seaborn, and Power BI to clean messy datasets, build dashboards, and tell clear data-driven stories.
                         I recently completed the IBM Data Analyst Professional Certificate and have been applying those skills through real-world projects that go beyond textbook problems.
                         I'm continuously strengthening my foundation in statistical methods, machine learning, and advanced Python workflows because good analysts never stop learning.
                         `}
