@@ -25,7 +25,7 @@ export function HeroSection() {
                        text-[46px] sm:text-[84px] lg:text-[110px]
                        tracking-[-2px] sm:tracking-[-4px] lg:tracking-[-5px]
                        py-2 gradient-text">
-          A Data & Business Analyst
+          A Data Analyst
         </h1>
 
         {/* Subtitle */}
