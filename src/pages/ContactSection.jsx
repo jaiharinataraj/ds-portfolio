@@ -38,6 +38,9 @@ export function ContactSection() {
                                 sjaiharinataraj [@] gmail [dot] com
                             </a> */}
                         </p>
+                        <p className="text-sm sm:text-base text-gray-700">
+                            Phone No: 9843273540
+                        </p>
                     </ContactCard>
 
                     {/* Social */}
@@ -98,7 +101,7 @@ export function ContactSection() {
                 </div>
 
                 {/* Message form */}
-               <ContactCard title="Message">
+                <ContactCard title="Message">
                     <form
                         action="https://api.web3forms.com/submit"
                         method="POST"
@@ -164,7 +167,7 @@ export function ContactSection() {
                         </button>
                     </form>
                 </ContactCard>
-               
+
             </div>
         </section>
     );
